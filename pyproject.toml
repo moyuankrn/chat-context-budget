@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chat-context-budget"
+version = "0.1.0"
+description = "Conservative context packing for tool-using chat requests"
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+authors = [{name = "moyuankrn"}]
+
+[tool.setuptools]
+py-modules = ["context_budget"]
